@@ -1,0 +1,19 @@
+TERENTE ANDREI-ALEXANDRU
+335 CA
+LFA - Tema AFD
+
+Detalii de implementare:
+1. Generale
+	- am optat sa implementez independent de jflex parsarea automatului
+ 	(parsarea este realizata in DFA.parseInput())
+	- automatul este reprezentat sub forma de graf
+
+2. Specifice task-urilor
+	.-e: se verifica daca starea initiala este stare finala
+	.-a: starile obtinute prin DFS din starea initiala
+	.-v: se verifica daca exista cel putin o stare care este atat
+	   	accesibila cat si finala
+	.-u: toate starile accesibile care, in urma DFS din ele, ajung intr-o
+		stare finala
+	.-f: se verifica daca exista cel putin un ciclu care sa contina o stare
+		utila
